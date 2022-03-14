@@ -1,0 +1,30 @@
+.form-container {
+  form {
+    display: grid;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .form-message {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    p {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .success {
+      background-color: green;
+    }
+
+    .error {
+      background-color: red;
+    }
+  }
+}

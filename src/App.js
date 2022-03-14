@@ -1,7 +1,11 @@
-import React from "react";
+import FormTemplate from "./FormTemplate";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div className="App">
+      <FormTemplate />
+    </div>
+  );
 };
 
 export default App;
